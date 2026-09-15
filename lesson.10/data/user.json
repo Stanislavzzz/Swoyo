@@ -1,0 +1,7 @@
+{
+  "country": "Russia",
+  "name": "Bob",
+  "age": 21,
+  "is_empty": true,
+  "my_obj": []
+}

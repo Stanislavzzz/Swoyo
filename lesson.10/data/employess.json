@@ -1,0 +1,14 @@
+{
+    "country": "Russia",
+    "name": "Bob",
+    "age": 21,
+    "is_empty": true,
+    "prof": [
+        {
+            "IT": "Italian"
+        },
+        {
+            "RU": "Russian"
+        }
+    ]
+}
