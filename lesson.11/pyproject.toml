@@ -1,0 +1,26 @@
+[project]
+name = "lesson-m1-2026-08"
+version = "1.1.2"
+description = "SWOYO"
+authors = [
+    {name = "Stanislav",email = "stanislav3@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "requests (>=2.34.2,<3.0.0)",
+    "fastapi (>=0.141.1,<0.142.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.1.1"
+
+
+[tool.poetry.group.link.dependencies]
+ruff = "^0.16.8"
+
